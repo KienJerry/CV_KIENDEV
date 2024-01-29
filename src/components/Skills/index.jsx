@@ -2,6 +2,7 @@ import React from "react";
 import style from "./index.module.css";
 
 export default ({ skills: { logo, list }, skills, lang }) => {
+  console.log(skills)
   return (
     <div>
       <h2>

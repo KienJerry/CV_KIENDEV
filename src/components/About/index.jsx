@@ -52,8 +52,8 @@ export default ({ info, lang }) => {
       logo: certificates.logo,
       explanation: () => (
         <>
-          {certificates.list.map(school => {
-            return school.certs.map(course => (
+          {certificates.list.map((school) => {
+            return school.certs.map((course) => (
               <span key={course.name}>
                 {course["name" + lang]} - {course["effort" + lang]}.<br />
               </span>
@@ -89,7 +89,7 @@ export default ({ info, lang }) => {
       logo: futureVision.logo,
       explanation: () => (
         <>
-          {futureVision["description" + lang].map(plan => (
+          {futureVision["description" + lang].map((plan) => (
             <span key={plan}>
               {plan}
               <br />
@@ -106,7 +106,7 @@ export default ({ info, lang }) => {
     },
   ];
 
-  const description = dataRepresentation.map(article => (
+  const description = dataRepresentation.map((article) => (
     <section key={id()}>
       <h2>
         <NavLink to={article.path}>
@@ -117,6 +117,7 @@ export default ({ info, lang }) => {
       <p>{article.explanation()}</p>
     </section>
   ));
+
 
   return (
     <div>
