@@ -17,7 +17,7 @@ export default {
     title_en: "About me",
     path: "/",
     isNav: true,
-    logo: "./img/logo/about.svg",
+    logo: "/img/logo/about.svg",
     explanation:
       "Chào mọi người. Mình tên là Nguyễn Thế Kiên. Là nhà phát triển Front End. Chủ yếu là ReactJS , NextJS.",
     explanation_en: `Hi Everyone. My name is Nguyen The Kien. I am a Front End developer, mainly using ReactJS and NextJS.`,
@@ -35,7 +35,7 @@ export default {
     title_en: "Skills",
     path: "/skills",
     isNav: true,
-    logo: "./img/logo/skills.svg",
+    logo: "/img/logo/skills.svg",
     explanation: "Технологии, с которыми я имел возможность работать:",
     explanation_en: "Here are some tools I'm using:",
     list: [
@@ -58,7 +58,7 @@ export default {
   projects: {
     title: "Dự án",
     title_en: "Projects",
-    logo: "./img/logo/projects.svg",
+    logo: "/img/logo/projects.svg",
     explanation:
       "Mình có 1 số dự án cá nhân & 1 số dự án làm trên công ty , anh chị truy cập đường dẫn dưới để xem nhé ạ",
     explanation_en:
@@ -209,7 +209,7 @@ export default {
   certificates: {
     title: "Сертификаты",
     title_en: "Certificates",
-    logo: "./img/logo/certificate.svg",
+    logo: "/img/logo/certificate.svg",
     explanation: "",
     path: "/certificates",
     isNav: true,
@@ -222,7 +222,7 @@ export default {
             name: "Сертификат FullStack JavaScript разработчик",
             name_en: "FullStack JavaScript developer certificate",
             url: "https://drive.google.com/file/d/1KHZQQMJqLV-86Xi47VUlu4Tm-ak8AheM/view?usp=sharing",
-            pathLocal: "./img/cert/EBC-certificate-Samolevich.png",
+            pathLocal: "/img/cert/EBC-certificate-Samolevich.png",
             effort: "около 500 часов разработки",
             effort_en: "approximately 500 hours of coursework",
           },
@@ -236,7 +236,7 @@ export default {
             name: "Сертификат Programming with JavaScript от Meta",
             name_en: "Programming with JavaScript certificate by Meta",
             url: "https://coursera.org/share/e080b3134ed2c8dc87f8745a38391947",
-            pathLocal: "./img/cert/Coursera Programming with JavaScript.jpeg",
+            pathLocal: "/img/cert/Coursera Programming with JavaScript.jpeg",
             effort: "более 42 часов разработки",
             effort_en: "approximately 42 hours of coursework",
           },
@@ -244,7 +244,7 @@ export default {
             name: "Сертификат HTML and CSS in depth от Meta",
             name_en: "HTML and CSS in depth certificate by Meta",
             url: "https://coursera.org/share/82a90f5c958dc217849ae0c3f0b1feb6",
-            pathLocal: "./img/cert/Coursera HTML and CSS in depth.jpeg",
+            pathLocal: "/img/cert/Coursera HTML and CSS in depth.jpeg",
             effort: "более 21 часов разработки",
             effort_en: "approximately 21 hours of coursework",
           },
@@ -252,7 +252,7 @@ export default {
             name: "Сертификат Principles of UX/UI Design от Meta",
             name_en: "Principles of UX/UI Design certificate by Meta",
             url: "https://coursera.org/share/9e7096cff81092050fab43af394c1f92",
-            pathLocal: "./img/cert/Coursera Principles of UXUI Design.jpeg",
+            pathLocal: "/img/cert/Coursera Principles of UXUI Design.jpeg",
             effort: "более 21 часов разработки",
             effort_en: "approximately 21 hours of coursework",
           },
@@ -262,7 +262,7 @@ export default {
               "Advanced Styling with Responsive Design certificate by University of Michigan",
             url: "https://coursera.org/share/b93adc750cda0d958b719addad07e677",
             pathLocal:
-              "./img/cert/Coursera Advanced Styling with Responsive Design.jpeg",
+              "/img/cert/Coursera Advanced Styling with Responsive Design.jpeg",
             effort: "более 12 часов разработки",
             effort_en: "approximately 12 hours of coursework",
           },
@@ -271,7 +271,7 @@ export default {
             name_en:
               "Interactivity with JavaScript certificate by University of Michigan",
             url: "https://coursera.org/share/3882b5b4e1ea53a67101cc0209dfa17a",
-            pathLocal: "./img/cert/Coursera Interactivity with JavaScript.jpeg",
+            pathLocal: "/img/cert/Coursera Interactivity with JavaScript.jpeg",
             effort: "более 9 часов разработки",
             effort_en: "approximately 9 hours of coursework",
           },
@@ -285,7 +285,7 @@ export default {
             name: "Сертификат Back End Development and APIs",
             name_en: "Back End Development and APIs certificate",
             url: "https://www.freecodecamp.org/certification/samolevich/back-end-development-and-apis",
-            pathLocal: "./img/cert/Back End Development and APIs.png",
+            pathLocal: "/img/cert/Back End Development and APIs.png",
             effort: "более 300 часов разработки",
             effort_en: "approximately 300 hours of coursework",
           },
@@ -294,7 +294,7 @@ export default {
             name_en: "JavaScript Algorithms and Data Structures certificate",
             url: "https://www.freecodecamp.org/certification/samolevich/javascript-algorithms-and-data-structures",
             pathLocal:
-              "./img/cert/Free Code Camp JavaScript Algorithms and Data Structures.png",
+              "/img/cert/Free Code Camp JavaScript Algorithms and Data Structures.png",
             effort: "более 300 часов разработки",
             effort_en: "approximately 300 hours of coursework",
           },
@@ -302,7 +302,7 @@ export default {
             name: "Сертификат Responsive Web Design",
             name_en: "Responsive Web Design certificate",
             url: "https://www.freecodecamp.org/certification/samolevich/responsive-web-design",
-            pathLocal: "./img/cert/Free Code Camp Responsive Web Design.png",
+            pathLocal: "/img/cert/Free Code Camp Responsive Web Design.png",
             effort: "более 300 часов разработки",
             effort_en: "approximately 300 hours of coursework",
           },
@@ -310,7 +310,7 @@ export default {
             name: "Сертификат Front End Development Libraries",
             name_en: "Front End Development Libraries certificate",
             url: "https://www.freecodecamp.org/certification/samolevich/front-end-development-libraries",
-            pathLocal: "./img/cert/Front End Development Libraries.png",
+            pathLocal: "/img/cert/Front End Development Libraries.png",
             effort: "более 300 часов разработки",
             effort_en: "approximately 300 hours of coursework",
           },
@@ -324,7 +324,7 @@ export default {
             name: "Сертификат JavaScript Course for beginners",
             name_en: "JavaScript Course for beginners  certificate",
             url: "https://stepik.org/cert/283188",
-            pathLocal: "./img/cert/Stepik JavaScript for beginners.png",
+            pathLocal: "/img/cert/Stepik JavaScript for beginners.png",
             effort: "более 300 часов разработки",
             effort_en: "approximately 300 hours of coursework",
           },
@@ -335,7 +335,7 @@ export default {
   expirience: {
     title: "Опыт",
     title_en: "Expirience",
-    logo: "./img/logo/expirience.svg",
+    logo: "/img/logo/expirience.svg",
     path: "/expirience",
     isNav: true,
     relevant: {
@@ -402,7 +402,7 @@ export default {
   futureVision: {
     title: "Планы",
     title_en: "My plans",
-    logo: "./img/logo/future.svg",
+    logo: "/img/logo/future.svg",
     path: "/",
     description: [
       "В планах изучить Angular JS.",
@@ -418,7 +418,7 @@ export default {
   education: {
     title: "Образование",
     title_en: "Education",
-    logo: "./img/logo/education.svg",
+    logo: "/img/logo/education.svg",
     path: "/",
     description: "Основное образование - среднее.",
     description_en: "High School degree.",
@@ -427,31 +427,31 @@ export default {
   contact: {
     title: "Контакты",
     title_en: "Contacts",
-    logo: "./img/logo/contacts.svg",
+    logo: "/img/logo/contacts.svg",
     interactions: [
       {
         title: "+7926 324 8737",
         title_en: "Call me",
         url: "tel:+79263248737",
-        iconForMobileVersion: "./img/logo/call.svg",
+        iconForMobileVersion: "/img/logo/call.svg",
       },
       {
         title: "Эл.почта",
         title_en: "E-mail me",
         url: "mailto:samolevich@gmail.com",
-        iconForMobileVersion: "./img/logo/contacts.svg",
+        iconForMobileVersion: "/img/logo/contacts.svg",
       },
       {
         title: "Телеграм",
         title_en: "Telegram me",
         url: "https://t.me/samolevich",
-        iconForMobileVersion: "./img/logo/telegram.svg",
+        iconForMobileVersion: "/img/logo/telegram.svg",
       },
       {
         title: "Вотсап",
         title_en: "WhatsApp me",
         url: "https://wa.me/79263248737",
-        iconForMobileVersion: "./img/logo/whatsapp.svg",
+        iconForMobileVersion: "/img/logo/whatsapp.svg",
       },
     ],
   },
@@ -473,7 +473,7 @@ export default {
         title: "Github профиль",
         title_en: "Github profile",
         url: "https://github.com/samolevich",
-        iconForMobileVersion: "./img/logo/octocat.svg",
+        iconForMobileVersion: "/img/logo/octocat.svg",
       },
       {
         title: "Codewars профиль",
@@ -490,6 +490,6 @@ export default {
   location: {
     title: "Москва",
     title_en: "Moscow",
-    logo: "./img/logo/location.svg",
+    logo: "/img/logo/location.svg",
   },
 };

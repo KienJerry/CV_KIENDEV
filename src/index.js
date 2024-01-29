@@ -17,14 +17,28 @@
 // reportWebVitals();
 
 
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import App from "./components/App";
+// import { BrowserRouter } from "react-router-dom";
+
+// ReactDOM.render(
+//   <BrowserRouter basename="/cv">
+//     <App />
+//   </BrowserRouter>,
+//   document.getElementById("root"),
+// );
+
+
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import App from "./components/App";
 import { BrowserRouter } from "react-router-dom";
 
-ReactDOM.render(
+const container = document.getElementById("root");
+const root = createRoot(container); // createRoot(container!) if you use TypeScript
+root.render(
   <BrowserRouter basename="/cv">
     <App />
-  </BrowserRouter>,
-  document.getElementById("root"),
+  </BrowserRouter>
 );
