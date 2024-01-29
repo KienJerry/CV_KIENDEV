@@ -1,0 +1,11 @@
+.logo {
+  width: 28px;
+  vertical-align: middle;
+  padding: 8px;
+}
+
+@media(max-width: 767px) {
+  .hiddenformobile {
+    display: none;
+  }
+}

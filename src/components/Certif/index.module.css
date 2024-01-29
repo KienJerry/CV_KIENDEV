@@ -1,0 +1,36 @@
+.certificate {
+  width: 100%;
+}
+
+.logo {
+  width: 42px;
+  vertical-align: middle;
+  padding-right: 8px;
+}
+
+.button {
+  outline: none;
+  background-color: #ffdb94;
+  padding: 10px 25px;
+  color: #4e7093;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid #ffdb94;
+}
+
+.button:hover {
+  border: 2px solid #f59297;
+  background-color: white;
+  color: #f59297;
+  transition-duration: 0.4s;
+}
+
+.button:active {
+  background-color: #4e7093;
+  color: white;
+  border: 2px solid #4e7093;
+}
+
+.certificate {
+  max-width: 650px;
+}

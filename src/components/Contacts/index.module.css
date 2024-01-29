@@ -1,0 +1,29 @@
+.contacts {
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.logo {
+  width: 28px;
+  vertical-align: middle;
+  padding: 8px;
+}
+
+.showformobile {
+  display: none;
+}
+
+.block {
+  margin: 1em 0;
+}
+
+@media(max-width: 767px) {
+  .hiddenformobile {
+    display: none;
+  }
+
+  .showformobile {
+    display: block;
+    padding: 0 20px;
+  }
+}

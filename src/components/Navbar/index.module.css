@@ -1,0 +1,35 @@
+.nav {
+  list-style: none;
+  margin: 50px 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list {
+  padding: 5px 20px;
+  text-transform: uppercase;
+}
+
+.list span:hover {
+  color: #4e7093;
+}
+
+.list .current {
+  color: #4e7093;
+}
+
+.logo {
+  width: 28px;
+  vertical-align: middle;
+  padding-right: 8px;
+}
+
+@media (max-width: 767px) {
+  .hiddenformobile {
+    display: none;
+    padding: 0;
+  }
+}

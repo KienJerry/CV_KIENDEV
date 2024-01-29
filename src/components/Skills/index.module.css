@@ -1,0 +1,14 @@
+ul {
+  list-style: none;
+  text-transform: none;
+}
+
+.skill {
+  padding: 10px;
+}
+
+.logo {
+  width: 42px;
+  vertical-align: middle;
+  padding-right: 8px;
+}
