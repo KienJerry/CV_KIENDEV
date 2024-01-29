@@ -127,8 +127,7 @@ export default {
       },
       {
         title: "Dự án làm trên công ty",
-        description:
-          `Sau 1 năm 3 tháng làm việc tại công ty AEGONA , mình join qua nhiều dự án từ trong nước đến nước ngoài , có dự án mình handle chính , có dự án mình support task, vì bảo mật thông tin source của khách hàng và thông tin khách nên mình chỉ share link web , demo UAT ,...  Anh chị có thể xem các dự án phía ben dưới nhé :`,
+        description: `Sau 1 năm 3 tháng làm việc tại công ty AEGONA , mình join qua nhiều dự án từ trong nước đến nước ngoài , có dự án mình handle chính , có dự án mình support task, vì bảo mật thông tin source của khách hàng và thông tin khách nên mình chỉ share link web , demo UAT ,...  Anh chị có thể xem các dự án phía ben dưới nhé :`,
         description_en:
           "After 1 year and 3 months working at AEGONA, I have joined various projects both domestically and internationally. Some projects I handle independently, while others involve supporting tasks. Due to security reasons regarding client source code and information, I can only share web links, UAT demos,... I would like to share the projects below for you to take a look at:",
         links: [
@@ -140,18 +139,31 @@ export default {
       },
       {
         title: "Miniapp Zalo",
-        description:
-          `Miniapp là ứng dụng nhỏ chạy trong hệ sinh thái của Zalo . Mình đã làm 3 dự án về miniapp và mình là người tiên phong của công ty làm về ứng dụng này . Dự án đầu tiên là "Lữ Hành Tour" : Liên quan đến du lịch - đặt tour , mình làm FE . Thời gian làm dự án là 2 tháng , các tính năng gồm có payment - đặt tour - giỏ hàng , authen , chỉnh sửa thông tin cá nhân ,... Dự án thứ 2 là "Abbott" : Dự án liên quan đến các sản phẩm sữa , dự án này là : K`,
+        description: `Miniapp là ứng dụng nhỏ chạy trong hệ sinh thái của Zalo . 
+        Mình đã làm 3 dự án về miniapp và mình là người tiên phong của công ty làm về ứng dụng này . 
+        Và cả 3 dự án mình handle trực tiếp với khách hàng , dev bên khách . 
+        Dự án đầu tiên là "Lữ Hành Tour" : Liên quan đến du lịch - đặt tour. Thời gian làm dự án là 2 tháng , các tính năng gồm có payment - đặt tour - giỏ hàng , authen , chỉnh sửa thông tin cá nhân ,... Dự án thứ 2 là "Abbott" : Dự án liên quan đến các sản phẩm sữa , dự án này mình onsite cho khách , làm trong 1 tháng rưỡi . 
+        Dự án thứ 3 là Lavie AI Tiên Tri : Dự án này mình làm FE & làm chung với 1 anh ấn độ ( Backend ) , dự án liên quan đến thần số học , cung hoàng đạo , bói toán ( Quảng cáo : https://www.facebook.com/100064718704823/posts/778426170991333/ )`,
         description_en:
-          "Team developed SSR-app. CRUD, roles (moderator, user).",
+          `Miniapp is a small application running within the Zalo ecosystem. I have worked on 3 miniapp projects and have been a pioneer in the company for such applications. I directly handled all 3 projects, working closely with clients and the client's development team.
+
+          The first project is 'Lữ Hành Tour,' related to travel and tour booking. The project duration was 2 months, and it included features such as payment, tour booking, cart management, authentication, and personal information editing.
+          
+          The second project is 'Abbott,' related to dairy products. For this project, I worked on-site for the client, completing it in 1.5 months.
+          
+          The third project is Lavie AI Tiên Tri. In this project, I worked on the front-end and collaborated with a backend developer from India. The project is related to numerology, zodiac signs, and fortune-telling. (Advertisement: https://www.facebook.com/100064718704823/posts/778426170991333/).`,
         links: [
           {
-            name: "Repository",
-            url: "https://github.com/SlavaPush/core-rent-app",
+            name: "Lữ Hành Tour",
+            url: "https://zalo.me/s/1309518302013277901/",
           },
           {
-            name: "Fork",
-            url: "https://github.com/samolevich/core-rent-app",
+            name: "Magenest Abbott",
+            url: "https://zalo.me/s/2055623046682325497/",
+          },
+          {
+            name: "Lavie AI Tiên Tri",
+            url: "https://zalo.me/s/3020445859421290716/",
           },
         ],
       },
