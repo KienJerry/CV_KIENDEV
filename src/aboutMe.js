@@ -130,12 +130,7 @@ export default {
         description: `Sau 1 năm 3 tháng làm việc tại công ty AEGONA , mình join qua nhiều dự án từ trong nước đến nước ngoài , có dự án mình handle chính , có dự án mình support task, vì bảo mật thông tin source của khách hàng và thông tin khách nên mình chỉ share link web , demo UAT ,...  Anh chị có thể xem các dự án phía ben dưới nhé :`,
         description_en:
           "After 1 year and 3 months working at AEGONA, I have joined various projects both domestically and internationally. Some projects I handle independently, while others involve supporting tasks. Due to security reasons regarding client source code and information, I can only share web links, UAT demos,... I would like to share the projects below for you to take a look at:",
-        links: [
-          // {
-          //   name: "Repository",
-          //   url: "https://github.com/ArtShilov/eventPlaner",
-          // },
-        ],
+        links: [],
       },
       {
         title: "Miniapp Zalo",
@@ -144,8 +139,7 @@ export default {
         Và cả 3 dự án mình handle trực tiếp với khách hàng , dev bên khách . 
         Dự án đầu tiên là "Lữ Hành Tour" : Liên quan đến du lịch - đặt tour. Thời gian làm dự án là 2 tháng , các tính năng gồm có payment - đặt tour - giỏ hàng , authen , chỉnh sửa thông tin cá nhân ,... Dự án thứ 2 là "Abbott" : Dự án liên quan đến các sản phẩm sữa , dự án này mình onsite cho khách , làm trong 1 tháng rưỡi . 
         Dự án thứ 3 là Lavie AI Tiên Tri : Dự án này mình làm FE & làm chung với 1 anh ấn độ ( Backend ) , dự án liên quan đến thần số học , cung hoàng đạo , bói toán ( Quảng cáo : https://www.facebook.com/100064718704823/posts/778426170991333/ )`,
-        description_en:
-          `Miniapp is a small application running within the Zalo ecosystem. I have worked on 3 miniapp projects and have been a pioneer in the company for such applications. I directly handled all 3 projects, working closely with clients and the client's development team.
+        description_en: `Miniapp is a small application running within the Zalo ecosystem. I have worked on 3 miniapp projects and have been a pioneer in the company for such applications. I directly handled all 3 projects, working closely with clients and the client's development team.
 
           The first project is 'Lữ Hành Tour,' related to travel and tour booking. The project duration was 2 months, and it included features such as payment, tour booking, cart management, authentication, and personal information editing.
           
@@ -168,41 +162,39 @@ export default {
         ],
       },
       {
-        title: "API Github",
+        title: "Website",
         description:
-          "Реализация работы с API Github. Выдаёт последнюю активность в искомой организации (commit, pullrequest...). Технологии: JavaScript, HTML, CSS, Materialize.",
+          "Dưới đây là 1 số dự án mình làm từ khi nhận dự án đến khi go live , chủ yếu là mình làm FE , cũng có 1 số dự án mình làm BE ( Nodejs , NestJs ) , FE chủ yếu về Reactjs , NextJs",
         description_en:
-          "Github API implementation. Returns the latest activity in the searched organization (commit, pull request...). Technologies: JavaScript, HTML, CSS, Materialize.",
+          "Below are some projects I worked on from the time I received the project until it went live. I mainly worked on the front-end, but I also worked on some back-end projects (Nodejs, NestJs). The front-end projects were mainly focused on Reactjs and NextJs.",
         links: [
           {
-            name: "Github Pages Deployed Site",
-            url: "https://samolevich.github.io/solo-project-api-github/",
+            name: "Best English",
+            url: "https://best-english-staging.fer.aegona.work/",
           },
           {
-            name: "Repository",
-            url: "https://github.com/samolevich/solo-project-api-github",
+            name: "Việc Làm Tây Nguyên",
+            url: "https://www.vieclamtaynguyen.vn/",
+          },
+          {
+            name: "AdTool (account:superadmin , pass:superadmin)",
+            url: "https://adtool-web-test.husky.aegona.work",
+          },
+          {
+            name: "TeamSport",
+            url: "https://teamsport-fe-test.ferrari.aegona.work/",
           },
         ],
       },
       {
-        title: "API HeadHunter",
-        description:
-          "Проект работает с API HeadHunter и выдаёт последние опубликованные вакансии по региону Москва. JavaScript, HTML, CSS, Materialize.",
+        title: "Zalo developer",
+        description: `Đây thường là các dự án tích điểm đổi quà liên quan đến zalo OA , source được dựng base sẵn ( Admin ( .net ) , client ( Nestjs - hbs )) nên mình thường sẽ làm theo các base đó , mình đã làm qua 3 dự án như ( BBPharma , SaiGonMachine, Bi-a Brex ). Do là ứng dụng liên quan đến OA của khách hàng nên mình sẽ không để link ứng dụng .`,
         description_en:
-          "API HeadHunter implementation. Returns the latest vacancies from region Moscow. JavaScript, HTML, CSS, Materialize.",
-        links: [
-          {
-            name: "Github Pages Deployed Site",
-            url: "https://samolevich.github.io/solo-headhunder-api/",
-          },
-          {
-            name: "Repository",
-            url: "https://github.com/samolevich/solo-headhunder-api",
-          },
-        ],
+          "These are usually point-accumulation projects related to Zalo OA. The source code is built on a pre-existing base (Admin (.net), client (Nestjs - hbs)). Therefore, I usually work according to those bases. I have worked on three projects such as BBPharma, SaiGonMachine, and Bi-a Brex. Since these are applications related to my client’s OA, I will not provide application links.",
+        links: [],
       },
       {
-        title: "CV",
+        title: "Support",
         description: "React Github Profile Guide App - CV.",
         description_en: "React Github Profile Guide App - CV.",
         links: [
