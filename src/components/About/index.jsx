@@ -46,26 +46,26 @@ export default ({ info, lang }) => {
         </>
       ),
     },
-    {
-      title: certificates[`title` + lang],
-      path: certificates.path,
-      logo: certificates.logo,
-      explanation: () => (
-        <>
-          {certificates.list.map((school) => {
-            return school.certs.map((course) => (
-              <span key={course.name}>
-                {course["name" + lang]} - {course["effort" + lang]}.<br />
-              </span>
-            ));
-          })}
-          <NavLink to={certificates.path}>
-            {certificates[`title` + lang].toUpperCase()}
-          </NavLink>
-          .
-        </>
-      ),
-    },
+    // {
+    //   title: certificates[`title` + lang],
+    //   path: certificates.path,
+    //   logo: certificates.logo,
+    //   explanation: () => (
+    //     <>
+    //       {certificates.list.map((school) => {
+    //         return school.certs.map((course) => (
+    //           <span key={course.name}>
+    //             {course["name" + lang]} - {course["effort" + lang]}.<br />
+    //           </span>
+    //         ));
+    //       })}
+    //       <NavLink to={certificates.path}>
+    //         {certificates[`title` + lang].toUpperCase()}
+    //       </NavLink>
+    //       .
+    //     </>
+    //   ),
+    // },
     {
       title: expirience[`title` + lang],
       path: expirience.path,

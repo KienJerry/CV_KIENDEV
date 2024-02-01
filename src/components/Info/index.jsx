@@ -23,10 +23,10 @@ export default ({ info, lang }) => {
         path={projects.path}
         component={() => <Projects projects={projects} lang={lang} />}
       />
-      <Route
+      {/* <Route
         path={certificates.path}
         component={() => <Certif certificates={certificates} lang={lang} />}
-      />
+      /> */}
       <Route
         path={expirience.path}
         component={() => (

@@ -13,7 +13,7 @@ export default ({ certificates, lang }) => {
 
   return (
     <div>
-      <h2>
+      {/* <h2>
         <img
           className={style.logo}
           src={logo}
@@ -54,7 +54,7 @@ export default ({ certificates, lang }) => {
             ));
           })}
         </p>
-      )}
+      )} */}
     </div>
   );
 };

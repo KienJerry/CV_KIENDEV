@@ -19,8 +19,8 @@ export default {
     isNav: true,
     logo: "/img/logo/about.svg",
     explanation:
-      "Chào mọi người. Mình tên là Nguyễn Thế Kiên. Là nhà phát triển Front End. Chủ yếu là ReactJS , NextJS.",
-    explanation_en: `Hi Everyone. My name is Nguyen The Kien. I am a Front End developer, mainly using ReactJS and NextJS.`,
+      "Chào mọi người. Mình tên là Nguyễn Thế Kiên. mình sinh năm 2001 và có hơn 1 năm kinh nghiệm . Là nhà phát triển Front End. Chủ yếu là ReactJS , NextJS.",
+    explanation_en: `Hello everyone. My name is Nguyễn Thế Kiên. I was born in 2001 and have over 1 year of experience. I am a Front End developer, mainly working with ReactJS and NextJS.`,
     years: () => {
       const age = periodFrom(2001, 7, 7);
       return `Mình ${age.fullYears} tuổi.`;
@@ -53,6 +53,7 @@ export default {
       "NestJS",
       "MySQL",
       "Git(github - gitlab - bitbucket)",
+      "Miniapp zalo",
     ],
   },
   projects: {
@@ -195,212 +196,210 @@ export default {
       },
       {
         title: "Support",
-        description: "React Github Profile Guide App - CV.",
-        description_en: "React Github Profile Guide App - CV.",
+        description:
+          "React Github Profile Guide App - CV.Dưới đây là 1 số dự án mình support ( tham gia dự án khi dự án hoan thành khoảng 50% trở lên ) , có 1 số dự án của nước ngoài như ( Nhật , Sing , Ấn độ ,.. ) các dự án thường viết bằng Reactjs , NextJs , sử dụng 1 số thư viện hỗ trợ như MUI cho admin , antd / bootstrap / tailwind ,... Có 1 số dự án bảo trì , nâng cấp chức năng , dưới dây là 1 số sản phẩm :",
+        description_en:
+          "Below are some projects I have supported (joining the project when it is approximately 50% completed). There are several international projects from countries like Japan, Singapore, India, etc. These projects are typically developed using ReactJS, NextJS, and utilize various supporting libraries such as MUI for the admin panel, antd/bootstrap/tailwind, etc. Some projects involve maintenance and feature upgrades. Here are some of the products:",
         links: [
           {
-            name: "Github Pages Deployed Site (THIS SITE)",
-            url: "https://samolevich.github.io/cv/",
+            name: "JEMS",
+            url: "https://jems-fe-test.husky.aegona.work/",
           },
           {
-            name: "Repository",
-            url: "https://github.com/samolevich/cv",
+            name: "VinaMove (UAT) (account:admin , pass: 123456y@Y",
+            url: "https://vinamove-crm-staging.fer.aegona.work/",
+          },
+          {
+            name: "Kovena Holtel Link",
+            url: "https://kovena-extranet-webapp-test.ferrari.aegona.work/",
           },
         ],
       },
     ],
   },
-  certificates: {
-    title: "Сертификаты",
-    title_en: "Certificates",
-    logo: "/img/logo/certificate.svg",
-    explanation: "",
-    path: "/certificates",
-    isNav: true,
-    list: [
-      {
-        description: "Офлайн-интенсив Elbrus Coding Bootcamp",
-        description_en: "Elbrus Coding Bootcamp Offline Intensive",
-        certs: [
-          {
-            name: "Сертификат FullStack JavaScript разработчик",
-            name_en: "FullStack JavaScript developer certificate",
-            url: "https://drive.google.com/file/d/1KHZQQMJqLV-86Xi47VUlu4Tm-ak8AheM/view?usp=sharing",
-            pathLocal: "/img/cert/EBC-certificate-Samolevich.png",
-            effort: "около 500 часов разработки",
-            effort_en: "approximately 500 hours of coursework",
-          },
-        ],
-      },
-      {
-        description: "Онлайн курсы на Coursera",
-        description_en: "Coursera Online Courses",
-        certs: [
-          {
-            name: "Сертификат Programming with JavaScript от Meta",
-            name_en: "Programming with JavaScript certificate by Meta",
-            url: "https://coursera.org/share/e080b3134ed2c8dc87f8745a38391947",
-            pathLocal: "/img/cert/Coursera Programming with JavaScript.jpeg",
-            effort: "более 42 часов разработки",
-            effort_en: "approximately 42 hours of coursework",
-          },
-          {
-            name: "Сертификат HTML and CSS in depth от Meta",
-            name_en: "HTML and CSS in depth certificate by Meta",
-            url: "https://coursera.org/share/82a90f5c958dc217849ae0c3f0b1feb6",
-            pathLocal: "/img/cert/Coursera HTML and CSS in depth.jpeg",
-            effort: "более 21 часов разработки",
-            effort_en: "approximately 21 hours of coursework",
-          },
-          {
-            name: "Сертификат Principles of UX/UI Design от Meta",
-            name_en: "Principles of UX/UI Design certificate by Meta",
-            url: "https://coursera.org/share/9e7096cff81092050fab43af394c1f92",
-            pathLocal: "/img/cert/Coursera Principles of UXUI Design.jpeg",
-            effort: "более 21 часов разработки",
-            effort_en: "approximately 21 hours of coursework",
-          },
-          {
-            name: "Сертификат Advanced Styling with Responsive Design от University of Michigan",
-            name_en:
-              "Advanced Styling with Responsive Design certificate by University of Michigan",
-            url: "https://coursera.org/share/b93adc750cda0d958b719addad07e677",
-            pathLocal:
-              "/img/cert/Coursera Advanced Styling with Responsive Design.jpeg",
-            effort: "более 12 часов разработки",
-            effort_en: "approximately 12 hours of coursework",
-          },
-          {
-            name: "Сертификат Interactivity with JavaScript от University of Michigan",
-            name_en:
-              "Interactivity with JavaScript certificate by University of Michigan",
-            url: "https://coursera.org/share/3882b5b4e1ea53a67101cc0209dfa17a",
-            pathLocal: "/img/cert/Coursera Interactivity with JavaScript.jpeg",
-            effort: "более 9 часов разработки",
-            effort_en: "approximately 9 hours of coursework",
-          },
-        ],
-      },
-      {
-        description: "Онлайн курс JavaScript от Free Code Camp",
-        description_en: "Free Code Camp JavaScript Online Course",
-        certs: [
-          {
-            name: "Сертификат Back End Development and APIs",
-            name_en: "Back End Development and APIs certificate",
-            url: "https://www.freecodecamp.org/certification/samolevich/back-end-development-and-apis",
-            pathLocal: "/img/cert/Back End Development and APIs.png",
-            effort: "более 300 часов разработки",
-            effort_en: "approximately 300 hours of coursework",
-          },
-          {
-            name: "Сертификат JavaScript Algorithms and Data Structures",
-            name_en: "JavaScript Algorithms and Data Structures certificate",
-            url: "https://www.freecodecamp.org/certification/samolevich/javascript-algorithms-and-data-structures",
-            pathLocal:
-              "/img/cert/Free Code Camp JavaScript Algorithms and Data Structures.png",
-            effort: "более 300 часов разработки",
-            effort_en: "approximately 300 hours of coursework",
-          },
-          {
-            name: "Сертификат Responsive Web Design",
-            name_en: "Responsive Web Design certificate",
-            url: "https://www.freecodecamp.org/certification/samolevich/responsive-web-design",
-            pathLocal: "/img/cert/Free Code Camp Responsive Web Design.png",
-            effort: "более 300 часов разработки",
-            effort_en: "approximately 300 hours of coursework",
-          },
-          {
-            name: "Сертификат Front End Development Libraries",
-            name_en: "Front End Development Libraries certificate",
-            url: "https://www.freecodecamp.org/certification/samolevich/front-end-development-libraries",
-            pathLocal: "/img/cert/Front End Development Libraries.png",
-            effort: "более 300 часов разработки",
-            effort_en: "approximately 300 hours of coursework",
-          },
-        ],
-      },
-      {
-        description: "Онлайн курс JavaScript от Stepik",
-        description_en: "Stepik JavaScript Online Course",
-        certs: [
-          {
-            name: "Сертификат JavaScript Course for beginners",
-            name_en: "JavaScript Course for beginners  certificate",
-            url: "https://stepik.org/cert/283188",
-            pathLocal: "/img/cert/Stepik JavaScript for beginners.png",
-            effort: "более 300 часов разработки",
-            effort_en: "approximately 300 hours of coursework",
-          },
-        ],
-      },
-    ],
-  },
+  // certificates: {
+  //   title: "Сертификаты",
+  //   title_en: "Certificates",
+  //   logo: "/img/logo/certificate.svg",
+  //   explanation: "",
+  //   path: "/certificates",
+  //   isNav: true,
+  //   list: [
+  //     {
+  //       description: "Офлайн-интенсив Elbrus Coding Bootcamp",
+  //       description_en: "Elbrus Coding Bootcamp Offline Intensive",
+  //       certs: [
+  //         {
+  //           name: "Сертификат FullStack JavaScript разработчик",
+  //           name_en: "FullStack JavaScript developer certificate",
+  //           url: "https://drive.google.com/file/d/1KHZQQMJqLV-86Xi47VUlu4Tm-ak8AheM/view?usp=sharing",
+  //           pathLocal: "/img/cert/EBC-certificate-Samolevich.png",
+  //           effort: "около 500 часов разработки",
+  //           effort_en: "approximately 500 hours of coursework",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       description: "Онлайн курсы на Coursera",
+  //       description_en: "Coursera Online Courses",
+  //       certs: [
+  //         {
+  //           name: "Сертификат Programming with JavaScript от Meta",
+  //           name_en: "Programming with JavaScript certificate by Meta",
+  //           url: "https://coursera.org/share/e080b3134ed2c8dc87f8745a38391947",
+  //           pathLocal: "/img/cert/Coursera Programming with JavaScript.jpeg",
+  //           effort: "более 42 часов разработки",
+  //           effort_en: "approximately 42 hours of coursework",
+  //         },
+  //         {
+  //           name: "Сертификат HTML and CSS in depth от Meta",
+  //           name_en: "HTML and CSS in depth certificate by Meta",
+  //           url: "https://coursera.org/share/82a90f5c958dc217849ae0c3f0b1feb6",
+  //           pathLocal: "/img/cert/Coursera HTML and CSS in depth.jpeg",
+  //           effort: "более 21 часов разработки",
+  //           effort_en: "approximately 21 hours of coursework",
+  //         },
+  //         {
+  //           name: "Сертификат Principles of UX/UI Design от Meta",
+  //           name_en: "Principles of UX/UI Design certificate by Meta",
+  //           url: "https://coursera.org/share/9e7096cff81092050fab43af394c1f92",
+  //           pathLocal: "/img/cert/Coursera Principles of UXUI Design.jpeg",
+  //           effort: "более 21 часов разработки",
+  //           effort_en: "approximately 21 hours of coursework",
+  //         },
+  //         {
+  //           name: "Сертификат Advanced Styling with Responsive Design от University of Michigan",
+  //           name_en:
+  //             "Advanced Styling with Responsive Design certificate by University of Michigan",
+  //           url: "https://coursera.org/share/b93adc750cda0d958b719addad07e677",
+  //           pathLocal:
+  //             "/img/cert/Coursera Advanced Styling with Responsive Design.jpeg",
+  //           effort: "более 12 часов разработки",
+  //           effort_en: "approximately 12 hours of coursework",
+  //         },
+  //         {
+  //           name: "Сертификат Interactivity with JavaScript от University of Michigan",
+  //           name_en:
+  //             "Interactivity with JavaScript certificate by University of Michigan",
+  //           url: "https://coursera.org/share/3882b5b4e1ea53a67101cc0209dfa17a",
+  //           pathLocal: "/img/cert/Coursera Interactivity with JavaScript.jpeg",
+  //           effort: "более 9 часов разработки",
+  //           effort_en: "approximately 9 hours of coursework",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       description: "Онлайн курс JavaScript от Free Code Camp",
+  //       description_en: "Free Code Camp JavaScript Online Course",
+  //       certs: [
+  //         {
+  //           name: "Сертификат Back End Development and APIs",
+  //           name_en: "Back End Development and APIs certificate",
+  //           url: "https://www.freecodecamp.org/certification/samolevich/back-end-development-and-apis",
+  //           pathLocal: "/img/cert/Back End Development and APIs.png",
+  //           effort: "более 300 часов разработки",
+  //           effort_en: "approximately 300 hours of coursework",
+  //         },
+  //         {
+  //           name: "Сертификат JavaScript Algorithms and Data Structures",
+  //           name_en: "JavaScript Algorithms and Data Structures certificate",
+  //           url: "https://www.freecodecamp.org/certification/samolevich/javascript-algorithms-and-data-structures",
+  //           pathLocal:
+  //             "/img/cert/Free Code Camp JavaScript Algorithms and Data Structures.png",
+  //           effort: "более 300 часов разработки",
+  //           effort_en: "approximately 300 hours of coursework",
+  //         },
+  //         {
+  //           name: "Сертификат Responsive Web Design",
+  //           name_en: "Responsive Web Design certificate",
+  //           url: "https://www.freecodecamp.org/certification/samolevich/responsive-web-design",
+  //           pathLocal: "/img/cert/Free Code Camp Responsive Web Design.png",
+  //           effort: "более 300 часов разработки",
+  //           effort_en: "approximately 300 hours of coursework",
+  //         },
+  //         {
+  //           name: "Сертификат Front End Development Libraries",
+  //           name_en: "Front End Development Libraries certificate",
+  //           url: "https://www.freecodecamp.org/certification/samolevich/front-end-development-libraries",
+  //           pathLocal: "/img/cert/Front End Development Libraries.png",
+  //           effort: "более 300 часов разработки",
+  //           effort_en: "approximately 300 hours of coursework",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       description: "Онлайн курс JavaScript от Stepik",
+  //       description_en: "Stepik JavaScript Online Course",
+  //       certs: [
+  //         {
+  //           name: "Сертификат JavaScript Course for beginners",
+  //           name_en: "JavaScript Course for beginners  certificate",
+  //           url: "https://stepik.org/cert/283188",
+  //           pathLocal: "/img/cert/Stepik JavaScript for beginners.png",
+  //           effort: "более 300 часов разработки",
+  //           effort_en: "approximately 300 hours of coursework",
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
   expirience: {
-    title: "Опыт",
+    title: "Kinh nghiệm",
     title_en: "Expirience",
     logo: "/img/logo/expirience.svg",
     path: "/expirience",
     isNav: true,
     relevant: {
-      title: "Релевантный опыт",
+      title: "Kinh nghiệm liên quan",
       title_en: "Relevant expirience",
       explanation: [
-        "Начиная с июля 2020 года имею опыт разработки как в команде, так и самостоятельно.",
-        "Опыт коммерческой разработки в таких компаниях как Айтеко, ФГБУ ИАЦ МЧС РФ. А также в качестве самозанятого.",
-        "Проекты можно посмотреть в моём репозитории Github.",
+        "Mình bắt đầu thực tập tại công ty Aegona từ tháng 7 năm 2022 , mình có kinh nghiệm phát triển theo theo nhóm và cá nhân. Trước đây mình học tại cao đẳng FPT Polytechnic , mình học từ năm 2019",
+        "Các dự án cá nhân có thể xem trong github cá nhân của mình",
         "",
-        "Инструменты, которыми я пользуюсь:",
-        "Основная операционная система - Linux (Ubuntu).",
-        "Среда разработки - VS Code.",
-        "Система контроля версий - Git (Github). В основном через консоль.",
-        "CSR App на React (Classes, Hooks), Redux (Thunk), JavaScript (ES6), CSS (flex, grid), SCSS, HTML.",
-        "SSR App на NodeJS, Express JS, Handlebars, MongoDB, Mongoose.",
-        "Некоторый опыт React-Bootstrap, Bootstrap, MaterialUI, Materialize, D3.js, AntDesign.",
+        "Công cụ sử dụng :",
+        "Hệ điều hành chính là windown",
+        "Môi trường code : VS code ",
+        "Quản lý mã nguồn : github , gitlab",
       ],
       explanation_en: [
-        "Starting from July 2020, I have experience in development both in a team and independently.",
-        "Projects can be viewed in my Github repository.",
+        "I started my internship at Aegona Company in July 2022. I have experience working both in teams and individually. I previously studied at FPT Polytechnic College, starting in 2019",
+        "Personal projects can be viewed on my personal GitHub repository.",
+        "",
         "Tools I use:",
-        "The main operating system is Linux (Ubuntu).",
+        "Main operating system: Windows",
         "Development environment - VS Code.",
-        "Version control system - Git (Github). Mainly via console.",
-        "CSR App on React (Classes, Hooks), Redux (Thunk), JavaScript (ES6), CSS (flex, grid), SCSS, HTML.",
-        "SSR App on NodeJS, Express JS, Handlebars, MongoDB, Mongoose.",
-        "Some experience with React-Bootstrap, Bootstrap, MaterialUI, Materialize, D3.js, AntDesign.",
+        "Source code management: GitHub, GitLab",
       ],
     },
     nonRelevant: {
-      title: "Нерелевантный опыт",
+      title: "Kinh nghiệm không liên quan",
       title_en: "Non-relevant expirience",
-      explanation:
-        "17 лет опыта работы связаны с торговлей. Начиная с 18 лет, работал в B2B (телекоммуникационные услуги, банковские продукты и услуги, оптовая торговля алкоголем). Самое продолжительное время работы 4.5 года занимался продажей корпусной мебели физическим лицам.",
-      explanation_en:
-        "I have 17 years experience in sales. Starting at the age of 18, mostly in B2B (telecommunication services, banking products and services, alcohol wholesale). The longest time of work in one place - 4.5 years.",
+      explanation: "N/A",
+      explanation_en: "N/A.",
     },
     devExperience: () => {
-      const { fullYears, months } = periodFrom(2020, 6);
+      const { fullYears, months } = periodFrom(2022, 10);
       const yearDeclension = fullYears
         ? fullYears % 10 === 1 && fullYears % 100 !== 11
-          ? `${fullYears} года`
-          : `${fullYears} лет`
+          ? `${fullYears} năm`
+          : `${fullYears} năm`
         : "";
       const monthDeclension = months
         ? months === 1
-          ? ` и ${months} месяцa`
-          : ` и ${months} месяцев`
+          ? ` ${months} tháng`
+          : ` ${months} tháng`
         : "";
-      return `В качестве разработчика более ${yearDeclension}${monthDeclension}. `;
+      return `mình có hơn ${yearDeclension}${monthDeclension} kinh nghiệm làm Front End Dev. `;
     },
     devExperience_en: () => {
-      const { fullYears, months } = periodFrom(2020, 6);
+      const { fullYears, months } = periodFrom(2022, 10);
       const yearDeclension = `${fullYears} years`;
       const monthDeclension = months
         ? months === 1
           ? ` and ${months} month`
           : ` and ${months} months`
         : "";
-      return `I have over ${yearDeclension}${monthDeclension} expirience as a developer. `;
+      return `I have over ${yearDeclension}${monthDeclension} expirience as a Front End Dev. `;
     },
   },
   futureVision: {
@@ -409,23 +408,23 @@ export default {
     logo: "/img/logo/future.svg",
     path: "/",
     description: [
-      "В планах изучить Angular JS.",
-      "В долгосрочной перспективе изучить технологии и языки для реализации Backend-логики.",
-      "Поднять уровень владения английским языком до уровня B2/C1.",
+      "Học thêm Backend (NodeJs, NestJS).",
+      "Về lâu dài, trở thành fullStack , có thể handle được thêm nhiều dự án phức tạm hơn",
+      "Nâng cao trình độ tiếng anh.",
     ],
     description_en: [
-      "Learn Angular JS.",
-      "In the long term, learn technologies and languages to implement Backend logic.",
-      "Improve English proficiency to level B2/C1 (now A2).",
+      "Learn NodeJs, NestJS.",
+      "Long-term, becoming a full-stack developer allows for handling more complex projects.",
+      "Improving English proficiency.",
     ],
   },
   education: {
-    title: "Образование",
+    title: "Tốt nghiệp",
     title_en: "Education",
     logo: "/img/logo/education.svg",
     path: "/",
-    description: "Основное образование - среднее.",
-    description_en: "High School degree.",
+    description: "Cao đẳng FPT Polytechnic",
+    description_en: "FPT Polytechnic College",
   },
 
   contact: {
@@ -434,28 +433,16 @@ export default {
     logo: "/img/logo/contacts.svg",
     interactions: [
       {
-        title: "+7926 324 8737",
+        title: "035 2626 013",
         title_en: "Call me",
-        url: "tel:+79263248737",
+        url: "tel:+84352626013",
         iconForMobileVersion: "/img/logo/call.svg",
       },
       {
-        title: "Эл.почта",
+        title: "email của tôi",
         title_en: "E-mail me",
-        url: "mailto:samolevich@gmail.com",
+        url: "mailto:kienntpk01531@gmail.com",
         iconForMobileVersion: "/img/logo/contacts.svg",
-      },
-      {
-        title: "Телеграм",
-        title_en: "Telegram me",
-        url: "https://t.me/samolevich",
-        iconForMobileVersion: "/img/logo/telegram.svg",
-      },
-      {
-        title: "Вотсап",
-        title_en: "WhatsApp me",
-        url: "https://wa.me/79263248737",
-        iconForMobileVersion: "/img/logo/whatsapp.svg",
       },
     ],
   },
@@ -464,36 +451,21 @@ export default {
       {
         title: "LinkedIn",
         title_en: "LinkedIn",
-        url: "https://www.linkedin.com/in/samolevich/",
-      },
-      {
-        title: "HeadHunter CV",
-        title_en: "HeadHunter CV",
-        url: "https://hh.ru/resume/50255c87ff0c717f810039ed1f6d565a725870",
+        url: "https://www.linkedin.com/in/th%E1%BA%BF-ki%C3%AAn-9b06082a8/",
       },
     ],
     code: [
       {
-        title: "Github профиль",
+        title: "Github của tôi",
         title_en: "Github profile",
-        url: "https://github.com/samolevich",
+        url: "https://github.com/KienJerry",
         iconForMobileVersion: "/img/logo/octocat.svg",
-      },
-      {
-        title: "Codewars профиль",
-        title_en: "Codewars profile",
-        url: "https://www.codewars.com/users/samolevich",
-      },
-      {
-        title: "FreeCodeCamp профиль",
-        title_en: "FreeCodeCamp profile",
-        url: "https://www.freecodecamp.org/samolevich",
       },
     ],
   },
   location: {
-    title: "Москва",
-    title_en: "Moscow",
+    title: "Buôn Ma Thuột",
+    title_en: "Buôn Ma Thuột",
     logo: "/img/logo/location.svg",
   },
 };
