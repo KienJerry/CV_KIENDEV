@@ -378,7 +378,7 @@ export default {
       explanation_en: "N/A.",
     },
     devExperience: () => {
-      const { fullYears, months } = periodFrom(2022, 10);
+      const { fullYears, months } = periodFrom(2022, 6);
       const yearDeclension = fullYears
         ? fullYears % 10 === 1 && fullYears % 100 !== 11
           ? `${fullYears} năm`
@@ -392,7 +392,7 @@ export default {
       return `mình có hơn ${yearDeclension}${monthDeclension} kinh nghiệm làm Front End Dev. `;
     },
     devExperience_en: () => {
-      const { fullYears, months } = periodFrom(2022, 10);
+      const { fullYears, months } = periodFrom(2022, 6);
       const yearDeclension = `${fullYears} years`;
       const monthDeclension = months
         ? months === 1
